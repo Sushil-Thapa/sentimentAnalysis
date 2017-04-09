@@ -1,6 +1,7 @@
 Sentiment Analysis with Deep Learning.
 
 Info:
+Dataset: 10k lines of positive and negative samples of data.
 Number of Hidden Layers = 3
 
 Number of Nodes in Hidden Layer 1 = 2000
