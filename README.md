@@ -14,7 +14,7 @@ polarity: 0 = negative. 2 = neutral. 4 = positive.
 
 Epochs:10
 Accuracy: 75%
-
+(Low Accuracy causes: Not enough data, Poor Deep learning model. [Recurrent Neural Nets/LSTM are better for Natural Language modeling.])
 
 _____________________________________________________________________________
 _____________________________________________________________________________
