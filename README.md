@@ -1,6 +1,13 @@
 Sentiment Analysis with Deep Learning.
 
 Info:
+Second Session:
+All models and datasets hosted at:
+-[Google Drive Link]()
+_____________________________________________________________________________
+First Session:
+_____________________________________________________________________________
+
 Dataset: 10k lines of positive and negative samples of data.
 Number of Hidden Layers = 3
 
@@ -39,6 +46,3 @@ Epoch 19 completed out of 20 loss: 16494.0327399
 Epoch 20 completed out of 20 loss: 19093.1549654
 Accuracy: 0.634146
 --- Training Time : 401.4542450904846 seconds ---
-
-
-
