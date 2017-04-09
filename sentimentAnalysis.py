@@ -55,7 +55,7 @@ def use_neural_network(input_data):
 
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
-        saver.restore(sess,"model.ckpt")
+        saver.restore(sess,"./model.ckpt")
         current_words = word_tokenize(input_data.lower())
         current_words = [lemmatizer.lemmatize(i) for i in current_words]
         features = np.zeros(len(lexicon))
@@ -75,5 +75,5 @@ def use_neural_network(input_data):
         elif result[0] == 1:
             print('Negative:',input_data)
 
-use_neural_network("He's an moron and its so stupid.")
-use_neural_network("This used to be a best store.")
+use_neural_network("He's an idiot and a jerk.")
+use_neural_network("This was the best store i've ever seen.")
