@@ -1,12 +1,25 @@
 Sentiment Analysis with Deep Learning.
 
 Info:
+_____________________________________________________________________________
+_____________________________________________________________________________
 Second Session:
 All models and datasets hosted at:
--[Google Drive Link]()
+-[Google Drive Link](https://drive.google.com/file/d/0ByGkmmuU1ZZyQkRfZWxIdUdUeTQ/view?usp=sharing)
+
+Datasets:
+-[sentiment140 Dataset](http://help.sentiment140.com/for-students/) 
+Samples: 1.6 million
+polarity: 0 = negative. 2 = neutral. 4 = positive.
+
+Epochs:10
+Accuracy: 75%
+
+
 _____________________________________________________________________________
+_____________________________________________________________________________
+
 First Session:
-_____________________________________________________________________________
 
 Dataset: 10k lines of positive and negative samples of data.
 Number of Hidden Layers = 3
