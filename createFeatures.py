@@ -31,7 +31,7 @@ def create_lexicon(pos,neg):
 		#print(w_counts[w])
 		if 1000 > w_counts[w] > 50:
 			l2.append(w)
-	print(len(l2))
+	print("Number of lexicons:",len(l2))
 	return l2
 
 
@@ -74,7 +74,6 @@ def create_feature_sets_and_labels(pos,neg,test_size = 0.1):
 	train_y = list(features[:,1][:-testing_size])
 	test_x = list(features[:,0][-testing_size:])
 	test_y = list(features[:,1][-testing_size:])
-
 	return train_x,train_y,test_x,test_y
 
 
